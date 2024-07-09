@@ -16,7 +16,7 @@
     grid-gap: 1em;
   }
 
-  li.category-box {
+  .category-box {
     width: unset;
     margin: 0;
     border: 1px solid rgba(205, 215, 225, 1) !important;
@@ -179,9 +179,9 @@
       transition: all 0.25s;
       .category-box-inner {
         border: none;
-        padding: 2em;
+        padding: 0.5em;
         @media screen and (max-width: 700px) {
-          padding: 2em 1em 1.25em;
+          padding: 0.5em 1em 1.25em;
         }
         transition: background 0.25s ease-in-out;
       }
