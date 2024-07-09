@@ -10,7 +10,7 @@ export default class CategoryGroupExtraLink extends Component {
   }
   <template>
     <li
-      style="border-color: #CDD7E1;"
+      style={{borderColor this.borderColor}}
       class="extra-link category-box extra-link-{{@link.id}}"
     >
       <div class="category-box-inner">
